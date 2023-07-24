@@ -24,7 +24,7 @@ class WelcomeScreen(QtWidgets.QDialog) :
 class LoginScreen(QtWidgets.QDialog): 
     def __init__(self):
         super(LoginScreen,self).__init__()
-        loadUi(r'UI\Login.ui',self)
+        loadUi(r'UI\login.ui',self)
         self.passwordfield.setEchoMode(QtWidgets.QLineEdit.Password)
         self.login2.clicked.connect(self.loginfunc)
 
